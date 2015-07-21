@@ -6,9 +6,8 @@
 <package name="default" extends="struts-default">
 <action name="okAct" class="org.sabi.action.act">
 
-<result name="Success">/success.jsp
+<result name="Success">/success.jsp</result>
 
-</result>
 </action>
 
 </package>
