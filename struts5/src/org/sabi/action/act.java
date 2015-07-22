@@ -4,6 +4,7 @@ import org.sabi.service.bean;
 public class act {
 	private String a;
 	private String b;
+	private String c;
 	public String getB() {
 		return b;
 	}
@@ -18,9 +19,9 @@ public class act {
 	}
 	public String execute() {
 bean obj = new bean();
- setA(obj.getBean());
-System.out.println(a);
-		return "Success";
+ setA(obj.getBean(b));
+System.out.println(c);
+		return a;
 	}
 
 }
